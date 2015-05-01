@@ -64,7 +64,7 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
     achievements: "Conquistas" # Tooltip on achievement list button from /play
     account: "Conta" # Tooltip on account button from /play
     settings: "Configurações" # Tooltip on settings button from /play
-#    poll: "Poll" # Tooltip on poll button from /play
+    poll: "Votação" # Tooltip on poll button from /play
     next: "Próximo" # Go from choose hero to choose inventory before playing a level
     change_hero: "Alterar Herói" # Go back from choose inventory to choose hero
     choose_inventory: "Equipar Itens"
@@ -261,9 +261,9 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
     victory_hour_of_code_done_yes: "Sim, eu terminei minha Hora da Programação!"
     victory_experience_gained: "XP ganho"
     victory_gems_gained: "Gems ganhas"
-#    victory_new_item: "New Item"
-#    victory_viking_code_school: "Holy smokes, that was a hard level you just beat! If you aren't already a software developer, you should be. You just got fast-tracked for acceptance with Viking Code School, where you can take your skills to the next level and become a professional web developer in 14 weeks."
-#    victory_become_a_viking: "Become a Viking"
+    victory_new_item: "Novo Item"
+    victory_viking_code_school: "Caramba, esse nível foi bem difícil! Se você ainda não é um desenvolvedor de software, você deve se tornar um. Você apenas ganhou fast-tracked para a aceitação no Viking Code School, onde você pode levar suas habilidades para o próximo nível e se tornar um desenvolvedor web profissional em 14 semanas."
+    victory_become_a_viking: "Torne-se um Viking"
     guide_title: "Guia"
     tome_minion_spells: "Magias dos seus subordinados" # Only in old-style levels.
     tome_read_only_spells: "Magias não editáveis" # Only in old-style levels.
@@ -358,7 +358,7 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
     auth_caption: "Salve seu progresso."
 
   leaderboard:
-#    leaderboard: "Leaderboard"
+    leaderboard: "Ranking"
     view_other_solutions: "Ver Outras Soluções" # {change}
     scores: "Pontuação"
     top_players: "Top Jogadores por"
@@ -405,7 +405,7 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
     feature4: "<strong>3500 gemas bônus</strong> todo mês!"
     feature5: "Vídeo tutorials"
     feature6: "Suporte via e-mail Premium"
-#    feature7: "Private <strong>Clans</strong>"
+    feature7: "<strong>Clans</strong> Privados"
     free: "Grátis"
     month: "mês"
     subscribe_title: "Inscrever-se"
@@ -417,7 +417,7 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
     thank_you: "Obrigado por estar apoiando o CodeCombat."
     sorry_to_see_you_go: "É uma pena ver você indo embora! Por favor, diga o que podemos fazer para melhorar."
     unsubscribe_feedback_placeholder: "Oh, o que nós fizemos?"
-    parent_button: "Pergunte aos seus pais"
+    parent_button: "Peça seus pais"
     parent_email_description: "Nós enviaremos um e-mail para eles adquirir para você uma assinatura do CodeCombat."
     parent_email_input_invalid: "Endereço de e-mail inválido."
     parent_email_input_label: "Endereço de e-mail dos pais"
@@ -428,15 +428,15 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
     parents: "Para os pais"
     parents_title: "Seus filhos estão aprendendo a programar." # {change}
     parents_blurb1: "Com o CodeCombat, seus filhos aprendem a programar de verdade. Eles começam a aprender comandos simples, e progridem para tópicos avançados."
-#    parents_blurb1a: "Computer programming is an essential skill that your child will undoubtedly use as an adult. By 2020, basic software skills will be needed by 77% of jobs, and software engineers are in high demand across the world. Did you know that Computer Science is the highest-paid university degree?"
+    parents_blurb1a: "Programação de computadores é uma habilidade essencial que o seu filho vai, sem dúvida, usar quando for um adulto. Em 2020, as competências básicas de software serão necessários por 77% dos locais de trabalho, e os engenheiros de software estão em alta demanda em todo o mundo. Você sabia que a Ciência da Computação é o diploma universitário mais bem pago?"
     parents_blurb2: "Apenas $9.99 USD/mês, eles recebem novos desafios todo mês e suporte no email pessoal de programadores profissionais." # {change}
-    parents_blurb3: "Sem risco: 100% devolução do dinheiro garantida, basta um simples clique em desinscrever-se."
-#    payment_methods: "Payment Methods"
-#    payment_methods_title: "Accepted Payment Methods"
-#    payment_methods_blurb1: "We currently accept credit cards and Alipay."
-#    payment_methods_blurb2: "If you require an alternate form of payment, please contact"
+    parents_blurb3: "Sem risco: Garantia de devolução de 100% do dinheiro, basta um simples clique em desinscrever-se."
+    payment_methods: "Meios de Pagamento"
+    payment_methods_title: "Meios de Pagamento Aceitos"
+    payment_methods_blurb1: "Atualmente, aceitamos cartões de crédito e Alipay."
+    payment_methods_blurb2: "Se você precisar de outro meio de pagamento, entre em contato"
     stripe_description: "Inscrição Mensal"
-    subscription_required_to_play: "Você precisará se inscrever para jogar este nível."
+    subscription_required_to_play: "Inscreva-se para jogar este nível."
     unlock_help_videos: "Inscreva-se para desbloquear todos os vídeos tutoriais."
 #    personal_sub: "Personal Subscription" # Accounts Subscription View below
 #    loading_info: "Loading subscription information..."
